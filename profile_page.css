@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Navigation bar style */
+
+.nav-bar {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 70px;
+}
+
+.nav-title {
+    text-align: center;
+    position: relative;
+    left: -322px;
+    font-size: 30px;
+    bottom: -20px;
+}
+
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    top: -26px;
+    position: relative;
+}
+
+.active {
+    position: relative;
+    right: 550px;
+}
+
+
+li {
+    margin: 15px;
+    list-style-type: none;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #6CB4EE;
+    border: 2px solid black;
+    border-radius: 4px;
+    color: white;
+    padding: 4px 16px 4px 16px;
+    box-shadow: 4px 4px 1px 1px black;
+    position: relative;
+    right: 300px;
+}
+
+
+/* User card style */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    border-top-style: hidden;
+    border-left: 3px solid gainsboro;
+    border-right: 3px solid gainsboro;
+    border-bottom: 3px solid gainsboro;
+    width: 520px;
+    height: 190px;
+    margin: 20px;
+    top: 25px;
+    left: 25%;
+    position: relative;
+}
+
+.nav {
+    position: relative;
+    background: #0096c7;
+    width: 526px;
+    top: 45px;
+    left: 404px;
+    height: 70px;
+    
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    right: 80.5%;
+    top: 30px;
+    border: 3px solid gainsboro;
+    border-radius: 50%;
+}
+
+.user-info {
+    position: absolute;
+    right: 42%;
+    bottom: 24px;
+}
+
+.user-info p {
+    padding-bottom: 2.5px;
+}
+
+a {
+    position: relative;
+    top: -0px;
+    color: #023e8a;
+}
+
+.map {
+    width: 11px;
+    position: relative;
+    bottom: -10px;
+}
+.gear {
+    width: 11px;
+}
+
+.edit {
+    position: relative;
+    bottom: -11px;
+}
+
+p {
+    position: relative;
+    bottom: -6px;
+}
+
+h4 {
+    text-align: left;
+    position: relative;
+    right: -25px;
+    top: -9px;
+}
+
+/* Education Tab Styles */
+.edu-container {
+    width: 520px;
+    height: 180px;
+    margin: 20px;
+    bottom: -18px;
+    left: 25%;
+    position: relative;
+    border-top-style: hidden;
+    border-left: 3px solid gainsboro;
+    border-right: 3px solid gainsboro;
+    border-bottom: 3px solid gainsboro;
+}
+
+.edu-nav {
+    background-color: black;
+    position: relative;
+    width: 526px;
+    top: 38px;
+    left: 404px;
+    height: 45px;
+    
+}
+
+.edu-nav h3 {
+    position: absolute;
+    color: white;
+    padding: 10px;
+    left: 20px;
+}
+
+.edu-info {
+    position: absolute;
+    left: 20px; 
+}
+
+.edu-info h2, p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.edu-info p:nth-child(2) {
+    color: gray;
+}
+
+/* Connections Request Styles */
+.requests-container {
+    width: 270px;
+    height: 140px;
+    margin: 20px;
+    bottom: -25px;
+    left: 115px;
+    position: relative;
+    border-top-style: hidden;
+    border-left: 3px solid gainsboro;
+    border-right: 3px solid gainsboro;
+    border-bottom: 3px solid gainsboro;
+}
+
+.requests {
+    position: absolute;
+    right: 410px;
+    top: 70px;
+}
+
+.requests-nav {
+        background-color: black;
+        position: relative;
+        width: 276px;
+        top: 45px;
+        left: 135px;
+        height: 53px;
+}
+
+.requests-nav h3:nth-child(1) {
+    position: absolute;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    left: 10px;
+    background-color: gainsboro;
+    border-radius: 50%;
+    border: 1px solid gainsboro;
+}
+
+.requests-nav h3:nth-child(2) {
+    position: absolute;
+    color: white;
+    padding-bottom: 3px;
+    left: 55px;
+    top: 15px;
+}
+
+.bola-img {
+    width: 40px;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right: 80.5%;
+    top: 18px;
+}
+
+.req-img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: -180px;
+    top: 5px;
+    padding-left: 5px;
+}
+
+.phil-img {
+    width: 40px;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right: 80.5%;
+    top: 68px;
+}
+
+.req-info h4 {
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+
+/* Your Connections Styles */
+
+.connections {
+    position: absolute;
+    right: 375px;
+    top: 270px;
+}
+
+.connections-container {
+        width: 270px;
+        height: 300px;
+        bottom: -60px;
+        left: 60px;
+        position: relative;
+        border-top-style: hidden;
+        border-left: 3px solid gainsboro;
+        border-right: 3px solid gainsboro;
+        border-bottom: 3px solid gainsboro;
+}
+
+.connections-nav {
+        background-color: black;
+        position: relative;
+        width: 276px;
+        top: 60px;
+        left: 60px;
+        height: 53px;
+}
+
+.connections-nav h3:nth-child(2) {
+    color: white;
+    position: absolute;
+    color: white;
+    padding:3px;
+    left: 95px;
+    top: 15px;
+}
+
+.connections-nav h3:nth-child(1) {
+    position: absolute;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    left: 10px;
+    background-color: gainsboro;
+    border-radius: 50%;
+    border: 1px solid gainsboro;
+}
+
+.connections-info h4 {
+    position: relative;
+    top: 40px;
+    left: 60px;
+    padding-bottom: 40px;
+}
+
+.connections-footer {
+        width: 100%;
+        height: 50px;
+        position: relative;
+        top: 30px;
+        border-top: 3px solid gainsboro;
+}
+
+.connections-footer a {
+    position: relative;
+    left: 12px;
+    top: 5px;
+}
+
+.sam-img {
+    width: 40px;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right: 80.5%;
+    top: 20px;
+}
+
+.osaro-img {
+    width: 40px;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right: 80.5%;
+    top: 80px;
+}
+
+.miguel-img {
+    width: 40px;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right: 80.5%;
+    top: 140px;
+}
+
+.annie-img {
+    width: 40px;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right: 80.5%;
+    top: 200px;
+}
