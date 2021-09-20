@@ -24,20 +24,20 @@
 
 <section class="information">
     <div class="nav">
-        <img src="/images/chinwe.jpeg" alt="User Card" class="circle">
+        <img src="./icons/user-circle.png" alt="User Card" class="circle">
     </div>
 
     <div class="container">
         <div class="user-info">
-        <h2>Chinwe Kalu</h2>
-        <img src="/icons/map-marker.png" alt="Map Marker" class="map">
+        <h2 id="user-name">Jane Doe</h2>
+        <img src="./icons/map-marker.png" alt="Map Marker" class="map">
         <h4>Lagos</h4>
         <p>Developer | Engineer | Problem Solver</p>
         <p>Master of shadows and the internet!</p>
         
         <div class="edit">
-            <img src="/icons/gear.png" alt="gear icon" class="gear">
-        <a href="github.com">edit profile</a>
+            <img src="./icons/gear.png" alt="gear icon" class="gear">
+        <a href="#" onclick="changeName()">edit profile</a>
         </div>
 
         </div>
@@ -67,22 +67,21 @@
         <h3>Connection Requests</h3>
     </div>
     
-        <div class="requests-container">
-            <div class="req-info">
-            <img src="/images/sharon.jpeg" class="bola-img">
+    <div class="requests-container">
+        <div id="req-btn" class="req-info">
+            <img src="./images/sharon.jpeg" class="bola-img">
             <h4>Bola 0.</h4>
-            <img src="/icons/accept-circle.png" class="req-img">
-            <img src="/icons/close-circle.png" class="req-img">
+            <img src="./icons/accept-circle.png" class="req-img" onclick="removeRequest()">
+            <img src="./icons/close-circle.png" class="req-img" onclick="removeRequest()">
         </div>
 
-            <div class="req-info">
-                <img src="/images/phil-s.jpg" class="phil-img">
+            <div id="req-btn2" class="req-info">
+                <img src="./images/phil-s.jpg" class="phil-img">
                 <h4>Phil K.</h4>
-                <img src="/icons/accept-circle.png" class="req-img">
-                <img src="/icons/close-circle.png" class="req-img">
+                <img src="./icons/accept-circle.png" class="req-img" onclick="removeRequest2()">
+                <img src="./icons/close-circle.png" class="req-img" onclick="removeRequest2()">
             </div>
-
-        </div>
+    </div>
 </aside>
 
 
@@ -97,7 +96,7 @@
 
     <div class="connections-container">
         <div class="connections-info">
-                <img src="/images/todd-s.jpg" class="sam-img">
+                <img src="./images/todd-s.jpg" class="sam-img">
                 <h4>Sam Y.</h4>
         </div>
 
@@ -123,6 +122,6 @@
     </div>
 </aside>
 
-
+<script src="script.js"></script>
 </body>
 </html>
