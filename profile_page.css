@@ -256,6 +256,17 @@ h4 {
     right: -180px;
     top: 5px;
     padding-left: 5px;
+    cursor: pointer;
+}
+
+#req-btn.hidden {
+    display: none;
+    cursor: pointer;
+}
+
+#req-btn2.hidden {
+    display: none;
+    cursor: pointer;
 }
 
 .phil-img {
