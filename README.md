@@ -8,7 +8,7 @@ This program:
 - shows a person's profile photo, personal information and education
 - shows their current connection and friend requests
 - changes the name of the user when the "edit profile" link is clicked
-- deletes a connection when either of the buttons are clicked
+- deletes a connection when either of the buttons are clicked on
 
 <h3>Technology Used:</h3>
 
